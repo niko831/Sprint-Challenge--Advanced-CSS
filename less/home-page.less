@@ -58,7 +58,18 @@
       }
 
       .btn {
-      }
+        background: @btn-bg-color;
+        color: white;
+        .btnform(30%, 7%);
+        .btncontent(1.6rem, 3% 5%);
+      
+          &:hover {
+            background: white;
+            color: @btn-bg-color;
+            .btnform(30%, 7%);
+            .btncontent(1.6rem, 3% 5%);
+          }
+        }
     }
 
     .walk-img {

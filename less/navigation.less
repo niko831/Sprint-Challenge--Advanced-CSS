@@ -1,1 +1,30 @@
 // Navigation code here
+
+nav {
+    width: 60%;
+    background: @nav-bg;
+    font-family: @nav-font;
+    .displayflex(column, center);
+    margin: 0 20%;
+    
+    @media @mobile {
+        width: 100%;
+        margin: 0%;
+    }
+}
+h1 {
+    width: 100%;
+    font-size: 5vh;
+    text-align: center;
+    padding: 1% 0;
+}
+ul {
+    width: 100%;
+    .displayflex(row, center)
+}
+a {
+    font-size: 1.6rem;
+    text-decoration: none;
+    padding: 1% 1.5%;
+    color: black;
+}
