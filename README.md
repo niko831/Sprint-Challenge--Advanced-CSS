@@ -46,7 +46,7 @@ The 62.5% represents the 10px of 16px--the default browser font-size. Since 1 re
 
 4. How would you describe preprocessing to someone new to CSS?
 
-Preprocessing works by partitioning semantic HTML for readability and consolidating reusable elements for easier maintainability. In CSS, you might have to rewrite many lines of code for different elements, but preprocessing allows you to condense variables into a single line of code that can be dynamically reused to make your code easier to read and edit.
+Preprocessing works by partitioning semantic HTML for readability and consolidating reusable elements for easier maintainability. In CSS, you might have to rewrite many lines of code for different elements, but preprocessing allows you to condense variables into a single line of code that can be dynamically reused to make your code easier to read and edit as well. Along with reusable variables, preprocessing breaks up the website into specific one page sections based on semantic HTML that allows you to navigate the code much easier.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
